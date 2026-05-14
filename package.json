@@ -1,0 +1,13 @@
+{
+  "name": "empo-manager",
+  "version": "1.0.0",
+  "description": "Employee Manager Application",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && node server.js",
+    "client": "cd frotend && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
